@@ -1,0 +1,73 @@
+$Branco:#FFF;
+$Azul:#DFF3FB;
+$AzulEscuro:#29334D;
+$AzulEscuro2:#151B27;
+$Vermelho:#CF4545;
+$Vermelho2:#981513;
+$cinza:#636362;
+$CinzaClaro:#CFCFCF;
+
+.container-fluid{font-family:'Arial';color:$Branco;
+    .row{
+        .col{background:$AzulEscuro;font-family:'Verdana';font-size:10px;}
+        .col-sm-7,.col-sm-5{background:$Azul;background-image: url("img/icon2.png");background-repeat:no-repeat;}
+        .col-sm-7{color:$AzulEscuro;padding-top:10%;
+            h1{font-weight:700;
+                span{color:$Vermelho;}
+            }
+        }
+        .col-sm-5{padding-top:40px;}
+        .col-sm-12{background:$Vermelho;
+            img{margin-bottom:20px;margin-top:20px;}
+            span{font-weight:bold;}
+            button{margin:20px;background:$AzulEscuro;border:none;color:$Branco;font-weight:bold;padding:0px;padding-top:10px;cursor:pointer;
+                span{padding:20px;}
+                .footerButton{background:$AzulEscuro2;height:5px;margin-top:10px;}
+            }
+            button:hover{background:$AzulEscuro2;
+                .footerButton{background:$AzulEscuro;}
+            }
+        }
+        .col-sm-8{padding-top:40px;}
+        .col-sm-4{padding-top:80px;}
+        .col-sm-8{
+            button{margin:20px;background:$Vermelho;border:none;color:$Branco;font-weight:bold;padding:0px;padding-top:10px;cursor:pointer;
+                span{padding:50px;}
+                .footerButton{background:$Vermelho2;height:5px;margin-top:10px;}
+            }
+            button:hover{background:$Vermelho2;
+                .footerButton{background:$Vermelho;}
+            }
+        }
+        .part-3{color:$cinza;text-align:center;
+            h1{color:$AzulEscuro;font-weight:700;}
+        }
+        
+        .col-md-8,.col-md-4{background:$AzulEscuro;padding-top:50px;}
+        .col-md-4{background-image: url("img/icon4.png");background-repeat:no-repeat;background-position:right 54px }
+        .col-md-8{
+            h1{font-weight:700;}
+            button{margin:20px;background:$Vermelho;border:none;color:$Branco;font-weight:bold;padding:0px;padding-top:10px;cursor:pointer;
+                span{padding:50px;}
+                .footerButton{background:$Vermelho2;height:5px;margin-top:10px;}
+            }
+            button:hover{background:$Vermelho2;
+                .footerButton{background:$Vermelho;}
+            }
+        }
+        
+        .part-5{color:$AzulEscuro;text-align:center;
+            h1{color:$Vermelho;font-weight:700;
+                span{color:$AzulEscuro;}
+            }
+        }
+        
+        .footer{background:$CinzaClaro;padding-left:25%;padding-right:25%;padding-bottom:40px;
+            ul{list-style-type:none;font-size:12px;margin-top:40px;
+                li{color:$Vermelho;margin-left:40px;float:left;}
+            }
+            span{color:$AzulEscuro;}
+            img{margin-left:45%;margin-top:50px;margin-bottom:20px;}
+        }
+    }//row
+}//container
